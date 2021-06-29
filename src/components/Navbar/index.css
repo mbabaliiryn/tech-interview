@@ -1,0 +1,64 @@
+.navbar-section {
+    border: 1px solid #CDCDCD;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 20px;
+    color: #777;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+}
+
+.nav-image-section {
+    height: 32px;
+    width: 32px;
+    background-image: url('https://cdn.codingal.com/images/logos/logos-main/logo-with-text.svg');
+    background-size: 120px;
+}
+
+.horizontal-section {
+    width: 10px;
+    height: 60px;
+    border-left: 1px solid #CDCDCD;
+    margin: 0 20px;
+}
+
+.timer-section {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.hide-component {
+    display: none;
+}
+
+.smaller-image-section {
+    height: 20px;
+    padding: 10px;
+    background-image: url('https://cdn.codingal.com/images/logos/logos-main/logo-with-text.svg');
+    background-repeat: no-repeat;
+    background-size: 150px;
+    width: 150px;
+}
+
+.smaller-icon-section {
+    margin-left: auto;
+}
+
+.smaller-icon-section i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav-modal-pop {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 50%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.8);
+}

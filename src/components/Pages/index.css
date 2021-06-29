@@ -1,0 +1,18 @@
+.display-post-list,
+.display-home-section {
+    margin-top: 90px;
+}
+
+.loading-section,
+.error-section {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display-home-section {
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 20px;
+}
